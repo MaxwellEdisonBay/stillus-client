@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-import AddIcon from "@mui/material/Add";
+import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { Button, Typography, useTheme } from "@mui/material";
+import { Button, IconButton, Typography, useTheme } from "@mui/material";
 import { Box } from "@mui/system";
 import { shades } from "../theme";
 import { addToCart } from "../state";
@@ -43,7 +43,7 @@ const Item = ({ item, width }) => {
           style={{ cursor: "pointer" }}
         />
         <Box
-          display={isHovered ? "blocked" : "none"}
+          display={isHovered ? "block" : "none"}
           position="absolute"
           bottom="10%"
           left="0"
