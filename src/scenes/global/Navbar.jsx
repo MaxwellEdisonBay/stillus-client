@@ -24,6 +24,9 @@ const Navbar = () => {
       height="60px"
       color="black"
       position="fixed"
+      // backgroundColor="white"
+      backgroundColor="rgba(255, 255, 255, 0.95)"
+      boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
       top="0"
       left="0"
       zIndex="1"
@@ -59,13 +62,13 @@ const Navbar = () => {
             color="secondary"
             invisible={cart.length === 0}
             sx={{
-                "& .MuiBadge-badge": {
-                    right: 5,
-                    top: 5,
-                    padding: "0 4px",
-                    height: "14px",
-                    minWidth: "13px",
-                }
+              "& .MuiBadge-badge": {
+                right: 5,
+                top: 5,
+                padding: "0 4px",
+                height: "14px",
+                minWidth: "13px",
+              },
             }}
           >
             <IconButton
