@@ -24,12 +24,12 @@ const Navbar = () => {
       height="60px"
       color="black"
       position="fixed"
-      // backgroundColor="white"
-      backgroundColor="rgba(255, 255, 255, 0.95)"
+      backgroundColor="white"
+      // backgroundColor="rgba(255, 255, 255, 0.95)"
       boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
       top="0"
       left="0"
-      zIndex="1"
+      zIndex="100"
     >
       <Box
         width="80%"
